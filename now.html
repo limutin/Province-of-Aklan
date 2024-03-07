@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type = "x-icon" href="download (3).jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+
+    <title></title>
+</head>
+<body style="background-image: url('back.jpg');
+             background-repeat: no-repeat;
+             background-blend-mode: soft-light;
+             background-size: cover;">
+<div align="left">
+	<style img class="logo" src="download (3).jpg" alt="">
+	</style>
+</div>
+<div class="aklan">
+    <h1>PROVINCE OF AKLAN</h1>
+</div>
+<div class="menus">
+    <h1><a href="#history" onclick="showHistory()">History</a> | <a href="#geography" onclick="showGeography()">Geography</a> | <a href="#demographics" onclick="showDemographics()">Demographics</a> | <a href="#economy" onclick="showEconomy()">Economy</a> | <a href="#tourist" onclick="showTourist()">Tourist</a> | <a href="#school" onclick="showSchool()">School and Universities</a></h1>
+</div>
+
+
+    <center><video id="video" src="videoplayback.mp4" width="900" height="500" controls autoplay loop/></center>
+
+
+<div id="history-content" class="history hidden">
+    <center><h1> HISTORY OF AKLAN</h1></center>
+    <h2>Aklan is believed to have been settled in the 13th century by settlers from Borneo, ruled by the chieftain Datu Dinagandan which traded with its neighbouring islands. Aklan then became a part of the Kedatuan of Madja-as. Towards the end of the 13th century, Datu Dinagandan moved the capital from what is now Batan.</h2>
+</div>
+<div id="geography-content" class="geo hidden">
+    <center><h1> GEOGRAPHY OF AKLAN</h1></center>
+    <h2>Aklan is a mountainous province with over one-third of its land area sloping at 30 percent on the average. It is still one of the few provinces in the country to maintain a total of some 709 hectares of virgin forest. Mountain ranges traverse the island: one; the northern “knot” of Duyang and Tagacan; and the other, the Albinian mountain ranges in the west. Mount Madyaas, at 2117 meters, is the second highest peak on Panay and is shared by Aklan and Antique. The province has no active volcano, therefore, earthquakes have not been severe, although three faults pass through it. The province has a total land area of 1,817 sq. kms.</h2>
+</div>
+<div id="demographics-content" class="demographics hidden">
+    <center><h1> DEMOGRAPHICS OF AKLAN</h1></center>
+    <h2>The total population of Aklan as of May 1, 2020, reached 615, 475 based on the results of the 2020 Census of Population and Housing conducted by the Philippine Statistics Authority. Aklan's population accounted for about 8 percent of the total population in Western Visayas, which is 7,954,723.</h2>
+</div>
+<div id="economy-content" class="economy hidden">
+    <center><h1> ECONOMY OF AKLAN</h1></center>
+    <h2>The Province of Aklan, known for being the home of Boracay Island, recorded a substantial gross domestic product (GDP) growth of 22.5 percent in 2022, far exceeding the national economic growth rate of 7.6 percent.</h2>
+</div>
+<div id="tourist-content" class="tourist hidden">
+    <center><h1>TOURISM AND ATTRACTIONS</h1></center>
+    <h2>The Province of Aklan, known for being the home of Boracay Island, Ariels Point, Willys Rock, St. John Baptist Church, and Island Hpping Adventure recorded a substantial gross domestic product (GDP) growth of 22.5 percent in 2022, far exceeding the national economic growth rate of 7.6 percent.</h2>
+    <div align="center">
+    <img class="pictures"src="good.jpg" alt=" ">
+    <img class="pictures"src="photo0jpg.jpg" alt=" ">
+    <img class="pictures"src="willy-s-rock.jpg" alt=" ">
+    <img class="pictures"src="caption.jpg" alt=" ">
+    <img class="pictures"src="ariel-s-point.jpg" alt=" ">
+</div>
+</div>
+<div id="school-content" class="school hidden">
+    <center><h1>SCHOOLS AND UNIVERSITIES</h1></center>
+    <h2>Aklan State University (ASU) - Located in Banga, Aklan, ASU is a public university offering undergraduate and graduate programs in various fields including agriculture, forestry, education, engineering, business, and more. <br>Northern Aklan Polytechnic College (NAPC) - Situated in Makato, Aklan, NAPC is a state college offering technical-vocational courses and programs in fields such as hospitality management, information technology, agriculture, and others. <br>Aklan Catholic College - A private Catholic institution in Kalibo, Aklan offering programs in education, business administration, information technology, and other fields.</h2>
+    <div align="center">
+    <img class="pictures"src="download.jpg" alt=" ">
+    <img class="pictures"src="download (1).jpg" alt=" ">
+    <img class="pictures"src="download (2).jpg" alt=" ">
+</div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var historyContent = document.getElementById("history-content");
+        var geographyContent = document.getElementById("geography-content");
+        var demographicsContent = document.getElementById("demographics-content");
+        var economyContent = document.getElementById("economy-content");
+        var touristContent = document.getElementById("tourist-content");
+        var schoolContent = document.getElementById("school-content");
+        historyContent.classList.add("hidden");
+        geographyContent.classList.add("hidden");
+        demographicsContent.classList.add("hidden");
+        economyContent.classList.add("hidden");
+        schoolContent.classList.add("hidden");
+    });
+
+    function showHistory() {
+        var historyContent = document.getElementById("history-content");
+        var video = document.getElementById("video");
+        historyContent.classList.toggle("hidden");
+        video.style.display = "none"; 
+    }
+
+    function showGeography() {
+        var geographyContent = document.getElementById("geography-content");
+        var video = document.getElementById("video");
+        geographyContent.classList.toggle("hidden");
+        video.style.display = "none"; 
+    }
+
+    function showDemographics() {
+        var demographicsContent = document.getElementById("demographics-content"); 
+        var video = document.getElementById("video");
+        demographicsContent.classList.toggle("hidden"); 
+        video.style.display = "none"; 
+    }
+    function showEconomy() {
+        var economyContent = document.getElementById("economy-content"); 
+        var video = document.getElementById("video");
+        economyContent.classList.toggle("hidden"); 
+        video.style.display = "none"; 
+    }
+    function showTourist() {
+        var touristContent = document.getElementById("tourist-content"); 
+        var video = document.getElementById("video");
+        touristContent.classList.toggle("hidden"); 
+        video.style.display = "none"; 
+    }
+     function showSchool() {
+        var schoolContent = document.getElementById("school-content"); 
+        var video = document.getElementById("video");
+        schoolContent.classList.toggle("hidden"); 
+        video.style.display = "none"; 
+    }
+</script>
+
+
+</body>
+</html>

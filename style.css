@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.aklan{
+	font-family: "Oswald", sans-serif;
+  padding-top: 10px;
+  margin-top: 0px;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: xx-large;
+  background: -webkit-linear-gradient(#cd9627, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  border-radius: 20px;
+}
+.menus{
+
+	font-family: "Oswald", sans-serif;
+  font-weight: <weight>;
+  font-size: larger;
+  background: -webkit-linear-gradient(#cd9627, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+
+}
+.hidden{
+	display: none;
+	
+}
+.pictures{
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+.logo{
+	width: 200px;
+	height: 200px;
+	border-radius: 95px;
+}
+#history-content {
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: xx-large;
+  text-align: center;
+  color: darkgoldenrod;
+   background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }   
+#geography-content{
+	font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: xx-large;
+  text-align: center;
+  color: darkgoldenrod;
+   background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#demographics-content{
+	font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: xx-large;
+  text-align: center;
+  color: darkgoldenrod;
+   background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#economy-content{
+	font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: xx-large;
+  text-align: center;
+  color: darkgoldenrod;
+   background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#tourist-content{
+	font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: large;
+  text-align: center;
+  color: darkgoldenrod;
+   background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#school-content{
+	font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: large;
+  text-align: center;
+  color: darkgoldenrod;
+   background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
